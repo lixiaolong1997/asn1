@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="asn1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/asn1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/projects/code_blocks/asn1/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/asn1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="ANY.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ANY.h" />
+		<Unit filename="BIT_STRING.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BIT_STRING.h" />
+		<Unit filename="BMPString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BMPString.h" />
+		<Unit filename="BOOLEAN.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BOOLEAN.h" />
+		<Unit filename="COPYING" />
+		<Unit filename="ENUMERATED.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ENUMERATED.h" />
+		<Unit filename="GeneralString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GeneralString.h" />
+		<Unit filename="GeneralizedTime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GeneralizedTime.h" />
+		<Unit filename="GraphicString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GraphicString.h" />
+		<Unit filename="IA5String.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="IA5String.h" />
+		<Unit filename="INTEGER.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="INTEGER.h" />
+		<Unit filename="ISO646String.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ISO646String.h" />
+		<Unit filename="Makefile.am.sample" />
+		<Unit filename="NULL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NULL.h" />
+		<Unit filename="NativeEnumerated.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NativeEnumerated.h" />
+		<Unit filename="NativeInteger.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NativeInteger.h" />
+		<Unit filename="NativeReal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NativeReal.h" />
+		<Unit filename="NumericString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="NumericString.h" />
+		<Unit filename="OBJECT_IDENTIFIER.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OBJECT_IDENTIFIER.h" />
+		<Unit filename="OCTET_STRING.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="OCTET_STRING.h" />
+		<Unit filename="ObjectDescriptor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ObjectDescriptor.h" />
+		<Unit filename="PrintableString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="PrintableString.h" />
+		<Unit filename="README" />
+		<Unit filename="REAL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="REAL.h" />
+		<Unit filename="RELATIVE-OID.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RELATIVE-OID.h" />
+		<Unit filename="Rectangle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Rectangle.h" />
+		<Unit filename="T61String.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="T61String.h" />
+		<Unit filename="TeletexString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TeletexString.h" />
+		<Unit filename="UTCTime.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="UTCTime.h" />
+		<Unit filename="UTF8String.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="UTF8String.h" />
+		<Unit filename="UniversalString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="UniversalString.h" />
+		<Unit filename="VideotexString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="VideotexString.h" />
+		<Unit filename="VisibleString.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="VisibleString.h" />
+		<Unit filename="asn1.cbp" />
+		<Unit filename="asn_SEQUENCE_OF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asn_SEQUENCE_OF.h" />
+		<Unit filename="asn_SET_OF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asn_SET_OF.h" />
+		<Unit filename="asn_application.h" />
+		<Unit filename="asn_codecs.h" />
+		<Unit filename="asn_codecs_prim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="asn_codecs_prim.h" />
+		<Unit filename="asn_internal.h" />
+		<Unit filename="asn_system.h" />
+		<Unit filename="ber_decoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ber_decoder.h" />
+		<Unit filename="ber_tlv_length.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ber_tlv_length.h" />
+		<Unit filename="ber_tlv_tag.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ber_tlv_tag.h" />
+		<Unit filename="constr_CHOICE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="constr_CHOICE.h" />
+		<Unit filename="constr_SEQUENCE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="constr_SEQUENCE.h" />
+		<Unit filename="constr_SEQUENCE_OF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="constr_SEQUENCE_OF.h" />
+		<Unit filename="constr_SET.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="constr_SET.h" />
+		<Unit filename="constr_SET_OF.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="constr_SET_OF.h" />
+		<Unit filename="constr_TYPE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="constr_TYPE.h" />
+		<Unit filename="constraints.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="constraints.h" />
+		<Unit filename="converter-sample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="der_encoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="der_encoder.h" />
+		<Unit filename="file-dependencies" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c.orig" />
+		<Unit filename="per_decoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="per_decoder.h" />
+		<Unit filename="per_encoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="per_encoder.h" />
+		<Unit filename="per_support.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="per_support.h" />
+		<Unit filename="rectangle.asn1" />
+		<Unit filename="xer_decoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xer_decoder.h" />
+		<Unit filename="xer_encoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xer_encoder.h" />
+		<Unit filename="xer_support.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="xer_support.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,258 @@
+# depslib dependency file v1.0
+1436020431 source:d:\projects\code_blocks\asn1\main.c
+	<stdio.h>
+	<sys/types.h>
+	<Rectangle.h>
+
+1436021408 d:\projects\code_blocks\asn1\\rectangle.h
+	<asn_application.h>
+	<NativeInteger.h>
+	<constr_SEQUENCE.h>
+
+1436021408 d:\projects\code_blocks\asn1\\asn_application.h
+	"asn_system.h"
+	"asn_codecs.h"
+	"constr_TYPE.h"
+
+1436021408 d:\projects\code_blocks\asn1\\asn_system.h
+	"config.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<malloc.h>
+	<windows.h>
+	<float.h>
+	<stdint.h>
+	<types/vxTypes.h>
+	<inttypes.h>
+	<alloca.h>
+	<ieeefp.h>
+	<alloca.h>
+	<stdint.h>
+	<netinet/in.h>
+
+1436021408 d:\projects\code_blocks\asn1\\asn_codecs.h
+
+1436021408 d:\projects\code_blocks\asn1\\constr_type.h
+	<ber_tlv_length.h>
+	<ber_tlv_tag.h>
+	<ber_decoder.h>
+	<der_encoder.h>
+	<xer_decoder.h>
+	<xer_encoder.h>
+	<per_decoder.h>
+	<per_encoder.h>
+	<constraints.h>
+
+1436021408 d:\projects\code_blocks\asn1\\ber_tlv_length.h
+
+1436021408 d:\projects\code_blocks\asn1\\ber_tlv_tag.h
+
+1436021408 d:\projects\code_blocks\asn1\\ber_decoder.h
+	<asn_application.h>
+
+1436021408 d:\projects\code_blocks\asn1\\der_encoder.h
+	<asn_application.h>
+
+1436021408 d:\projects\code_blocks\asn1\\xer_decoder.h
+	<asn_application.h>
+
+1436021408 d:\projects\code_blocks\asn1\\xer_encoder.h
+	<asn_application.h>
+
+1436021408 d:\projects\code_blocks\asn1\\per_decoder.h
+	<asn_application.h>
+	<per_support.h>
+
+1436021408 d:\projects\code_blocks\asn1\\per_support.h
+	<asn_system.h>
+
+1436021408 d:\projects\code_blocks\asn1\\per_encoder.h
+	<asn_application.h>
+	<per_support.h>
+
+1436021408 d:\projects\code_blocks\asn1\\constraints.h
+	<asn_system.h>
+
+1436021408 d:\projects\code_blocks\asn1\\nativeinteger.h
+	<asn_application.h>
+	<INTEGER.h>
+
+1436021408 d:\projects\code_blocks\asn1\\integer.h
+	<asn_application.h>
+	<asn_codecs_prim.h>
+
+1436021408 d:\projects\code_blocks\asn1\\asn_codecs_prim.h
+	<asn_application.h>
+
+1436021408 d:\projects\code_blocks\asn1\\constr_sequence.h
+	<asn_application.h>
+
+1159299455 source:d:\projects\code_blocks\asn1\any.c
+	<asn_internal.h>
+	<ANY.h>
+	<errno.h>
+
+1436021408 d:\projects\code_blocks\asn1\\asn_internal.h
+	"asn_application.h"
+	<assert.h>
+
+1159299455 d:\projects\code_blocks\asn1\\any.h
+	<OCTET_STRING.h>
+
+1436021408 d:\projects\code_blocks\asn1\\octet_string.h
+	<asn_application.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\asn_codecs_prim.c
+	<asn_internal.h>
+	<asn_codecs_prim.h>
+	<errno.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\asn_sequence_of.c
+	<asn_internal.h>
+	<asn_SEQUENCE_OF.h>
+
+1159299456 d:\projects\code_blocks\asn1\\asn_sequence_of.h
+	<asn_SET_OF.h>
+
+1159299456 d:\projects\code_blocks\asn1\\asn_set_of.h
+
+1159299456 source:d:\projects\code_blocks\asn1\asn_set_of.c
+	<asn_internal.h>
+	<asn_SET_OF.h>
+	<errno.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\ber_decoder.c
+	<asn_internal.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\ber_tlv_length.c
+	<asn_internal.h>
+	<ber_tlv_length.h>
+	<ber_tlv_tag.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\ber_tlv_tag.c
+	<asn_internal.h>
+	<ber_tlv_tag.h>
+	<errno.h>
+
+1159299455 source:d:\projects\code_blocks\asn1\bit_string.c
+	<asn_internal.h>
+	<BIT_STRING.h>
+	<asn_internal.h>
+
+1159299455 d:\projects\code_blocks\asn1\\bit_string.h
+	<OCTET_STRING.h>
+
+1159299455 source:d:\projects\code_blocks\asn1\bmpstring.c
+	<asn_internal.h>
+	<BMPString.h>
+	<UTF8String.h>
+
+1159299455 d:\projects\code_blocks\asn1\\bmpstring.h
+	<OCTET_STRING.h>
+
+1159299455 d:\projects\code_blocks\asn1\\utf8string.h
+	<OCTET_STRING.h>
+
+1159299455 source:d:\projects\code_blocks\asn1\boolean.c
+	<asn_internal.h>
+	<asn_codecs_prim.h>
+	<BOOLEAN.h>
+
+1159299455 d:\projects\code_blocks\asn1\\boolean.h
+	<asn_application.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\constr_choice.c
+	<asn_internal.h>
+	<constr_CHOICE.h>
+
+1159299456 d:\projects\code_blocks\asn1\\constr_choice.h
+	<asn_application.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\constr_sequence.c
+	<asn_internal.h>
+	<constr_SEQUENCE.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\constr_sequence_of.c
+	<asn_internal.h>
+	<constr_SEQUENCE_OF.h>
+	<asn_SEQUENCE_OF.h>
+
+1159299456 d:\projects\code_blocks\asn1\\constr_sequence_of.h
+	<asn_application.h>
+	<constr_SET_OF.h>
+
+1159299456 d:\projects\code_blocks\asn1\\constr_set_of.h
+	<asn_application.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\constr_set.c
+	<asn_internal.h>
+	<constr_SET.h>
+	<netinet/in.h>
+	<winsock2.h>
+
+1159299456 d:\projects\code_blocks\asn1\\constr_set.h
+	<asn_application.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\constr_set_of.c
+	<asn_internal.h>
+	<constr_SET_OF.h>
+	<asn_SET_OF.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\constr_type.c
+	<asn_internal.h>
+	<constr_TYPE.h>
+	<errno.h>
+
+1159299456 source:d:\projects\code_blocks\asn1\constraints.c
+	"asn_internal.h"
+	"constraints.h"
+
+1159299456 d:\projects\code_blocks\asn1\asn_internal.h
+	"asn_application.h"
+	<assert.h>
+
+1159299456 d:\projects\code_blocks\asn1\asn_application.h
+	"asn_system.h"
+	"asn_codecs.h"
+	"constr_TYPE.h"
+
+1159299456 d:\projects\code_blocks\asn1\asn_system.h
+	"config.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<stdarg.h>
+	<stddef.h>
+	<malloc.h>
+	<stdint.h>
+	<windows.h>
+	<float.h>
+	<types/vxTypes.h>
+	<inttypes.h>
+	<alloca.h>
+	<ieeefp.h>
+	<alloca.h>
+	<stdint.h>
+
+1159299456 d:\projects\code_blocks\asn1\asn_codecs.h
+
+1159299456 d:\projects\code_blocks\asn1\constr_type.h
+	<ber_tlv_length.h>
+	<ber_tlv_tag.h>
+	<ber_decoder.h>
+	<der_encoder.h>
+	<xer_decoder.h>
+	<xer_encoder.h>
+	<per_decoder.h>
+	<per_encoder.h>
+	<constraints.h>
+
+1159299456 d:\projects\code_blocks\asn1\constraints.h
+	<asn_system.h>
+
